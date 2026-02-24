@@ -1,0 +1,24 @@
+:root {
+  font-family: "Inter", sans-serif;
+}
+
+.text-navy {
+  color: #001f3f;
+}
+
+.bg-navy {
+  background-color: #001f3f;
+}
+
+.border-navy {
+  border-color: #001f3f;
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(0, 31, 63, 0.9) 0%,
+    rgba(0, 31, 63, 0.4) 50%,
+    rgba(0, 31, 63, 0) 100%
+  );
+}

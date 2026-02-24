@@ -1,0 +1,105 @@
+
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); 
+  border-bottom: 1px solid #f3f4f6; 
+  padding: 1rem 1.5rem; 
+}
+
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem; 
+  
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  color: #0f172a; 
+      
+}
+
+.icon {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.title {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 900; /* font-black */
+  letter-spacing: -0.05em; /* tracking-tighter */
+  color: #0f172a; /* Cor Navy */
+  margin: 0;
+}
+
+.navWrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* gap-8 */
+  flex-shrink: 0;
+}
+
+.nav {
+  display: none; 
+  align-items: center;
+  gap: 2rem; /* gap-8 */
+  font-size: 11px;
+  font-weight: 700; /* font-bold */
+  text-transform: uppercase;
+  letter-spacing: 0.2em; 
+  color: #6b7280; 
+}
+
+@media (min-width: 1024px) {
+  .nav {
+    display: flex;
+  }
+}
+
+.navLink {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+.navLink:hover {
+  color: #0f172a; 
+}
+
+.button {
+  background-color: #0f172a; 
+  color: #000000; 
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  padding: 0.75rem 1.75rem; 
+  border-radius: 9999px; 
+  border: none;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); 
+  transition: all 0.3s ease; 
+}
+
+.button:hover {
+  background-color: #1e293b; 
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+}
