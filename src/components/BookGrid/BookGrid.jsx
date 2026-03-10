@@ -6,6 +6,7 @@ export default function BookGrid({ livros }) {
       {livros.map((livro) => (
         <BookCard
           key={livro.titulo}
+          id={livro.id}
           titulo={livro.titulo}
           autor={livro.autor}
           tipo={livro.tipo}
