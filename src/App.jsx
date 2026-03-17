@@ -9,6 +9,19 @@ import Cadastro from "./pages/Cadastro";
 import Catalogo from "./pages/Catalogo";
 import Livro from "./pages/Livro";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 export default function App() {
   return (
     <Router>
