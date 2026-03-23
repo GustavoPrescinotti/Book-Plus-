@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import CadastrarLivro from "./CadastrarLivro.jsx";
 
 export default function Cadastro() {
   return (
@@ -22,7 +23,7 @@ export default function Cadastro() {
             <input type="password" required className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-navy focus:ring-navy p-2 border" placeholder="••••••••" />
           </div>
           <button type="submit" className="w-full bg-navy text-white font-bold py-3 px-4 rounded-full hover:bg-slate-800 transition-colors uppercase text-sm tracking-wider mt-4">
-            Cadastrar
+            <Link to="/Login">Entrar </ Link>
           </button>
         </form>
         <p className="mt-6 text-center text-sm text-gray-600">
