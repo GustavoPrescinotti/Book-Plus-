@@ -37,7 +37,6 @@ export default function CadastrarLivro() {
 
         if (retorno.livro) {
             setMensagem('Livro cadastrado com sucesso!');
-            // Limpa os campos
             setImagem(''); setTitulo(''); setCategoria(''); setDescricao(''); setAutor(''); setFaixaEtaria('');
         } else {
             setMensagem('Erro ao cadatrar livro. Verifique os dados.');
@@ -58,7 +57,7 @@ export default function CadastrarLivro() {
                     </div>
                 )}
 
-                {/* O onSubmit do formulário chama a nossa função assíncrona */}
+
                 <form className="space-y-6" onSubmit={realizarCadastro}>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>

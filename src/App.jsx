@@ -7,21 +7,9 @@ import Home from "./pages/Home.jsx";
 import Login from "./pages/Login.jsx";
 import Cadastro from "./pages/Cadastro.jsx";
 import Catalogo from "./pages/Catalogo.jsx";
-import Livro from "./pages/Livro.jsx";
+import Livro from "./pages/Sinopse.jsx";
 import Admin from "./pages/Admin.jsx";
 import CadastrarLivro from "./pages/CadastrarLivro.jsx";
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 export default function App() {
